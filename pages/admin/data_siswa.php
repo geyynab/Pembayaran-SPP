@@ -74,7 +74,7 @@ include "navbar.php";
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="./petugas/login.php"> Login </a></li>
+                <li class="nav-item"> <a class="nav-link" href="login.php"> Login </a></li>
                 <li class="nav-item"> <a class="nav-link" href="logout.php"> Logout </a></li>
               </ul>
             </div>

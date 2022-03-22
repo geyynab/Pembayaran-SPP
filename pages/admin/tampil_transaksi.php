@@ -103,7 +103,7 @@ include "navbar.php";
               <div class="card">
                 <div class="card-body text-center">
                   <h4 class="card-tittle">Profil Siswa</h4>
-                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                  <img src="https://www.seekpng.com/png/detail/966-9665493_my-profile-icon-blank-profile-image-circle.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                   <?php include "koneksi.php";
                   $qry_siswa=mysqli_query($conn,"SELECT * FROM siswa JOIN kelas ON siswa.id_kelas=kelas.id_kelas WHERE siswa.nisn=" .$_GET['nisn']);
                   $dt_siswa= mysqli_fetch_array($qry_siswa);?>
